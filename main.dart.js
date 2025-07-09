@@ -6686,8 +6686,9 @@ _.c=c
 _.d=!1
 _.e=0
 _.f=1600
-_.r=d
-_.w=e
+_.r=0
+_.w=d
+_.x=e
 _.E$=0
 _.G$=f
 _.R$=_.U$=0},
@@ -38761,10 +38762,10 @@ aje(a){var s=0,r=A.J(t.H),q=this,p,o,n,m,l,k,j,i,h
 var $async$mg=A.E(function(b,c){if(b===1)return A.G(c,r)
 while(true)switch(s){case 0:q.d=!0
 q.a3()
-q.r=a
+q.w=a
 s=2
 return A.L(q.yL(),$async$mg)
-case 2:p=q.w
+case 2:p=q.x
 o=p.a.h(0,a)
 s=o!=null?3:5
 break
@@ -38787,7 +38788,9 @@ for(l=k.length,h=0;h<k.length;k.length===l||(0,A.M)(k),++h)p.RU(a,k[h])
 case 4:s=7
 return A.L(q.vf(A.bP(a),A.be(a)),$async$mg)
 case 7:q.e=c-q.f
-q.d=!1
+q.r=0
+for(p=q.c,l=p.length,h=0,k=0;h<l;++h){k+=p[h].b
+q.r=k}q.d=!1
 q.a3()
 return A.H(null,r)}})
 return A.I($async$mg,r)},
@@ -38811,7 +38814,7 @@ case 1:return A.H(q,r)}})
 return A.I($async$vf,r)},
 yL(){var s=0,r=A.J(t.H),q,p=this,o,n,m,l,k,j
 var $async$yL=A.E(function(a,b){if(a===1)return A.G(b,r)
-while(true)switch(s){case 0:k=p.w
+while(true)switch(s){case 0:k=p.x
 j=k.b
 s=j!=null?3:5
 break
@@ -38834,14 +38837,14 @@ return A.I($async$yL,r)},
 tq(a,b){return this.ahQ(a,b)},
 ahQ(a,b){var s=0,r=A.J(t.H),q=this,p,o,n,m
 var $async$tq=A.E(function(c,d){if(c===1)return A.G(d,r)
-while(true)switch(s){case 0:p=q.r
+while(true)switch(s){case 0:p=q.w
 o=p.a
 n=A.as(["amount",a,"date",A.CE(1000*o+p.b),"timestamp",o,"type",b],t.N,t.K)
 m=B.b
 s=2
 return A.L(q.a.ev("users").eI(q.b).ev("incomes").D(0,n),$async$tq)
 case 2:o=m.gau(d.a.b.a)
-q.w.RU(q.r,new A.h7(o,a,p,b))
+q.x.RU(q.w,new A.h7(o,a,p,b))
 s=3
 return A.L(q.fh(),$async$tq)
 case 3:return A.H(null,r)}})
@@ -38851,7 +38854,7 @@ aid(a){var s=0,r=A.J(t.H),q=this
 var $async$tx=A.E(function(b,c){if(b===1)return A.G(c,r)
 while(true)switch(s){case 0:s=2
 return A.L(q.a.ev("users").eI(q.b).ev("incomes").eI(a).a.m5(),$async$tx)
-case 2:q.w.aoy(q.r,a)
+case 2:q.x.aoy(q.w,a)
 s=3
 return A.L(q.fh(),$async$tx)
 case 3:return A.H(null,r)}})
@@ -38860,7 +38863,7 @@ fh(){var s=0,r=A.J(t.H),q=this
 var $async$fh=A.E(function(a,b){if(a===1)return A.G(b,r)
 while(true)switch(s){case 0:B.b.O(q.c)
 s=2
-return A.L(q.mg(q.r),$async$fh)
+return A.L(q.mg(q.w),$async$fh)
 case 2:return A.H(null,r)}})
 return A.I($async$fh,r)}}
 A.a5i.prototype={
@@ -39028,7 +39031,7 @@ r.e.mg(s)},
 l(){this.d.l()
 this.aq()},
 J(a){var s=null,r=t.pS,q=t.p
-return A.aul(A.az(s,A.ch(A.b([A.az(s,s,B.j,s,s,s,s,120,s,s,s,s,s),A.c6(A.az(s,A.d4(B.ag,A.b([A.a_E(new A.an1(this),r),A.eT(s,new A.eH(B.cr,s,s,new A.aT(B.Ek,A.JV(A.bk("Aggiungi introito",s,s,s,s,s,s),new A.an2(this),s),s),s),s,s,s,s,s,s)],q),B.G,B.as),B.j,s,s,new A.b9(B.l,s,s,new A.c0(new A.ax(24,24),new A.ax(24,24),B.A,B.A),s,s,B.L),s,s,s,s,s,s,s))],q),B.r,B.ab,B.t),B.j,B.fh,s,s,s,s,s,s,s,s,s),this.e,r)},
+return A.aul(A.az(s,A.ch(A.b([A.c6(A.az(s,A.d4(B.ag,A.b([A.a_E(new A.an1(this),r),A.eT(s,new A.eH(B.cr,s,s,new A.aT(B.Ek,A.JV(A.bk("Aggiungi introito",s,s,s,s,s,s),new A.an2(this),s),s),s),s,s,s,s,s,s)],q),B.G,B.as),B.j,s,s,new A.b9(B.l,s,s,new A.c0(new A.ax(24,24),new A.ax(24,24),B.A,B.A),s,s,B.L),s,s,s,s,s,s,s))],q),B.r,B.ab,B.t),B.j,B.fh,s,s,s,s,s,s,s,s,s),this.e,r)},
 anw(a){var s,r,q,p,o,n,m,l,k,j,i,h=null,g={}
 g.a=0
 g.b=!1
@@ -39057,7 +39060,7 @@ j=A.d2(A.bP(j),A.be(j),A.ez(j),0,0,0,0)
 m=A.d2(A.bP(m),A.be(m),A.ez(m),0,0,0,0)
 l=A.d2(A.bP(l),A.be(l),A.ez(l),0,0,0,0)
 r=Date.now()
-q=A.bk("Bilancio mensile: \u20ac"+B.c.ac(b.e,2),n,n,n,A.cD(n,n,n,n,n,n,n,n,n,n,n,18,n,n,B.jo,n,n,!0,n,n,n,n,n,n,n,n),n,n)
+q=A.bk("Bilancio mensile: \u20ac"+B.c.ac(b.e,2)+"   Del giorno: \u20ac"+B.c.ac(b.r,2),n,n,n,A.cD(n,n,n,n,n,n,n,n,n,n,n,18,n,n,B.jo,n,n,!0,n,n,n,n,n,n,n,n),n,n)
 if(b.d)p=A.dF(A.aum(n,n,n,n,n,n,n,n,n,n),n,n)
 else{p=b.c
 o=A.X(p).i("R<1,m5>")
@@ -39163,7 +39166,7 @@ s.G$=$.ad()
 s.E$=0
 this.aq()},
 J(a){var s=null,r=t.Wp,q=t.p
-return A.aul(A.az(s,A.ch(A.b([A.az(s,s,B.j,s,s,s,s,120,s,s,s,s,s),A.c6(A.az(s,A.d4(B.ag,A.b([A.a_E(new A.apV(this),r)],q),B.G,B.as),B.j,s,s,new A.b9(B.l,s,s,new A.c0(new A.ax(24,24),new A.ax(24,24),B.A,B.A),s,s,B.L),s,s,s,s,s,s,s))],q),B.r,B.ab,B.t),B.j,B.fh,s,s,s,s,s,s,s,s,s),this.d,r)}}
+return A.aul(A.az(s,A.ch(A.b([A.c6(A.az(s,A.d4(B.ag,A.b([A.a_E(new A.apV(this),r)],q),B.G,B.as),B.j,s,s,new A.b9(B.l,s,s,new A.c0(new A.ax(24,24),new A.ax(24,24),B.A,B.A),s,s,B.L),s,s,s,s,s,s,s))],q),B.r,B.ab,B.t),B.j,B.fh,s,s,s,s,s,s,s,s,s),this.d,r)}}
 A.apV.prototype={
 $3(a,b,c){var s,r,q,p,o=null,n=this.a,m=n.f
 m===$&&A.a()
