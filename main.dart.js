@@ -47203,7 +47203,8 @@ p=q.b
 if(p<0)continue
 o=q.w
 n=o.length
-if(n===0){o=j.h(0,"Altro")
+if(n===0)if(q.e==="cash"){o=j.h(0,"Cash")
+j.m(0,"Cash",(o==null?0:o)+p)}else{o=j.h(0,"Altro")
 j.m(0,"Altro",(o==null?0:o)+p)}else for(m=0;m<o.length;o.length===n||(0,A.M)(o),++m){l=o[m]
 k=j.h(0,l)
 j.m(0,l,(k==null?0:k)+p)}}return j},
@@ -47227,7 +47228,7 @@ r=A.fQ(A.az(A.aQi(A.Cb("it_IT").ei(b.w)),o,o,o,o,o,o,o,o),new A.aJ7(a,b),o)
 q=A.a8(o,o,B.i,o,o,o,o,12,o,o,o,o,o,o)
 if(b.c.length===0)n=A.az("Nessun dato per il mese di "+A.aQi(A.Cb("it_IT").ei(b.w)),o,o,o,o,o,o,o,o)
 else{p=t.p
-p=A.b6(A.a([A.Ck(o),new A.dL(B.ct,o,o,A.b6(A.a([A.az("Incasso medio giornaliero: \u20ac"+B.c.af(b.f,2),o,o,o,o,A.de(o,o,o,o,o,o,o,o,o,o,o,o,o,o,B.e2,o,o,!0,o,o,o,o,o,o,o,o),o,o,o),A.a8(o,o,B.i,o,o,o,o,4,o,o,o,o,o,o),A.az("Questo mese: \u20ac"+B.c.af(b.r,2),o,o,o,o,A.de(o,o,o,o,o,o,o,o,o,o,o,o,o,o,B.e2,o,o,!0,o,o,o,o,o,o,o,o),o,o,o),A.a8(o,o,B.i,o,o,o,o,4,o,o,o,o,o,o),A.az("Al netto delle spese fisse: \u20ac"+B.c.af(b.r-c.f,2),o,o,o,o,A.de(o,o,o,o,o,o,o,o,o,o,o,o,o,o,B.e2,o,o,!0,o,o,o,o,o,o,o,o),o,o,o),A.a8(o,o,B.i,o,o,o,o,4,o,o,o,o,o,o),A.az("Al netto delle spese totali: \u20ac"+B.c.af(b.r-c.f-b.d,2),o,o,o,o,A.de(o,o,o,o,o,o,o,o,o,o,o,o,o,o,B.e2,o,o,!0,o,o,o,o,o,o,o,o),o,o,o),A.a8(o,o,B.i,o,o,o,o,4,o,o,o,o,o,o),A.az("Spese: \u20ac"+B.c.af(b.d,2),o,o,o,o,A.de(o,o,o,o,o,o,o,o,o,o,o,o,o,o,B.e2,o,o,!0,o,o,o,o,o,o,o,o),o,o,o)],p),B.b3,B.v,B.p),o),A.Ck(o),A.a8(o,o,B.i,o,o,o,o,12,o,o,o,o,o,o),A.bS(new A.DS(A.aPD(o,o,o,B.Y3,A.ah4(o,!1),B.Lb,B.Q9,new A.wp(!1,!0,o,A.aMt(),A.aMu(),!0,o,A.aMt(),A.aMu()),A.a([A.aPC(o,3,o,A.Q(a).ax.b,0.35,o,new A.rH(!0,A.aRI(),A.b_7()),B.Qe,o,!1,!1,!1,!1,B.Rx,!1,10,B.a7I,!0,B.we,s)],t.HS),B.Ry,o,o,o,o,B.a6t,0,B.Y4,new A.wr(!0,new A.lg(16,o,new A.m0(!1,A.aMs(),22,o,!0,!0),!0),new A.lg(16,o,new A.m0(!1,A.aMs(),22,o,!0,!0),!0),new A.lg(16,o,new A.m0(!0,new A.aJ8(),22,o,!0,!0),!0),new A.lg(16,o,new A.m0(!0,new A.aJ9(),22,o,!0,!0),!0))),B.N,B.bU,o,o),400,17976931348623157e292),A.a8(o,o,B.i,o,o,o,o,24,o,o,o,o,o,o),A.Ck(o),A.az("Incassi per tipo",o,o,o,o,o,o,o,o),n.aqb(b),A.a8(o,o,B.i,o,o,o,o,24,o,o,o,o,o,o),A.Ck(o),A.az("Incassi per categoria",o,o,o,o,o,o,o,o),n.aq7(b),A.a8(o,o,B.i,o,o,o,o,24,o,o,o,o,o,o),A.Ck(o),A.az("Spese",o,o,o,o,o,o,o,o),n.aq6(b)],p),B.n,B.v,B.p)
+p=A.b6(A.a([A.Ck(o),new A.dL(B.ct,o,o,A.b6(A.a([A.az("Incasso medio giornaliero: \u20ac"+B.c.af(b.f,2),o,o,o,o,A.de(o,o,o,o,o,o,o,o,o,o,o,o,o,o,B.e2,o,o,!0,o,o,o,o,o,o,o,o),o,o,o),A.a8(o,o,B.i,o,o,o,o,4,o,o,o,o,o,o),A.az("Questo mese: \u20ac"+B.c.af(b.r,2),o,o,o,o,A.de(o,o,o,o,o,o,o,o,o,o,o,o,o,o,B.e2,o,o,!0,o,o,o,o,o,o,o,o),o,o,o),A.a8(o,o,B.i,o,o,o,o,4,o,o,o,o,o,o),A.az("Al netto delle spese fisse: \u20ac"+B.c.af(b.r-c.f,2),o,o,o,o,A.de(o,o,o,o,o,o,o,o,o,o,o,o,o,o,B.e2,o,o,!0,o,o,o,o,o,o,o,o),o,o,o),A.a8(o,o,B.i,o,o,o,o,4,o,o,o,o,o,o),A.az("Al netto delle spese totali: \u20ac"+B.c.af(b.r-c.f-b.d,2),o,o,o,o,A.de(o,o,o,o,o,o,o,o,o,o,o,o,o,o,B.e2,o,o,!0,o,o,o,o,o,o,o,o),o,o,o),A.a8(o,o,B.i,o,o,o,o,4,o,o,o,o,o,o),A.az("Spese: \u20ac"+B.c.af(b.d,2),o,o,o,o,A.de(o,o,o,o,o,o,o,o,o,o,o,o,o,o,B.e2,o,o,!0,o,o,o,o,o,o,o,o),o,o,o)],p),B.b3,B.v,B.p),o),A.Ck(o),A.a8(o,o,B.i,o,o,o,o,12,o,o,o,o,o,o),A.bS(new A.DS(A.aPD(o,o,o,B.Y3,A.ah4(o,!1),B.Lb,B.Q9,new A.wp(!1,!0,o,A.aMt(),A.aMu(),!0,o,A.aMt(),A.aMu()),A.a([A.aPC(o,3,o,A.Q(a).ax.b,0.35,o,new A.rH(!0,A.aRI(),A.b_7()),B.Qe,o,!1,!1,!1,!1,B.Rx,!1,10,B.a7I,!0,B.we,s)],t.HS),B.Ry,o,o,o,o,B.a6t,0,B.Y4,new A.wr(!0,new A.lg(16,o,new A.m0(!1,A.aMs(),22,o,!0,!0),!0),new A.lg(16,o,new A.m0(!1,A.aMs(),22,o,!0,!0),!0),new A.lg(16,o,new A.m0(!0,new A.aJ8(),22,o,!0,!0),!0),new A.lg(16,o,new A.m0(!0,new A.aJ9(),22,o,!0,!0),!0))),B.N,B.bU,o,o),400,17976931348623157e292),A.a8(o,o,B.i,o,o,o,o,24,o,o,o,o,o,o),A.Ck(o),A.az("Incassi per tipo",o,o,o,o,o,o,o,o),n.aqb(b),A.a8(o,o,B.i,o,o,o,o,24,o,o,o,o,o,o),A.Ck(o),A.az("Incassi per categoria",o,o,o,o,o,o,o,o),n.aq7(b),A.a8(o,o,B.i,o,o,o,o,24,o,o,o,o,o,o),A.Ck(o),A.az("Spese",o,o,o,o,o,o,o,o),n.aq6(b),A.a8(o,o,B.i,o,o,o,o,24,o,o,o,o,o,o)],p),B.n,B.v,B.p)
 n=p}return A.GF(new A.aJ(B.md,A.b6(A.a([new A.aJ(B.ma,l,o),r,q,n],t.p),B.n,B.v,B.p),o),o,o,B.am)},
 $S:334}
 A.aJ5.prototype={
@@ -47245,7 +47246,7 @@ $1(a){if(a!=null)this.a.yP(a)},
 $S:340}
 A.aJ9.prototype={
 $2(a,b){var s=null
-return A.az(B.e.k(B.c.ad(a)),s,s,s,s,B.IR,s,s,s)},
+return A.az(B.e.af(B.c.ad(a),2),s,s,s,s,B.IR,s,s,s)},
 $S:223}
 A.aJ8.prototype={
 $2(a,b){var s=null
