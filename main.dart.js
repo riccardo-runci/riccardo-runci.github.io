@@ -46917,7 +46917,7 @@ p.a=0
 p.b=!1
 s=t.s
 r=A.a([],s)
-q=A.a(["POS","STID","APP","GLOBIX","RADIO","Altro"],s)
+q=A.a(["POS","STID","APP","GLOBIX","RADIO","Altro","FREE NOW","WE TAXI","APP TAXI"],s)
 p.c=new A.aS(Date.now(),0,!1)
 s=this.c
 s.toString
